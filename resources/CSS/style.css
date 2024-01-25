@@ -1,0 +1,88 @@
+body {
+    background-color: rgba(150, 220, 255, 0.22);
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+article {
+    font-family: "Merriweather", serif;
+    margin: 75px 0px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+h1, h2 {
+    font-family: "Roboto", sans-serif;
+    color: rgb(0, 70, 120);
+}
+
+table {
+    border: solid rgb(100, 180, 225) 3px;
+    border-collapse: collapse;
+    width: 60%;
+    margin: auto;
+}
+
+thead, th {
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;
+    background-color: rgb(0, 20, 150);
+    color: rgb(180, 220, 255);
+}
+
+th {
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    border: solid rgb(100, 180, 225) 1px;
+}
+
+td {
+    padding: 8px;
+    border: solid rgb(100, 180, 225) 1px;
+}
+
+ul{
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    width: 150px;
+    border: solid rgb(100, 180, 225) 1px;
+    padding: 10px;
+    background-color: rgba(100, 150, 200, 0.5);
+}
+
+.subject {
+    text-align: center;
+}
+
+.even-row {
+    background-color: rgba(100, 150, 200, 0.5);
+}
+
+.emphasis {
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+}
+
+table.secondary {
+    margin-top: 50px;
+}
